@@ -29,7 +29,7 @@ setuptools.setup(
     description="LiveKit Python Agents",
     long_description=(here / "README.md").read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
-    url="https://github.com/livekit/agents",
+    url="https://github.com/enesuludg/agents",
     cmdclass={},
     classifiers=[
         "Intended Audience :: Developers",
