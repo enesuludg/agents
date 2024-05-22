@@ -155,3 +155,4 @@ class MyPlugin(Plugin):
 </tbody>
 </table>
 <!--END_REPO_NAV-->
+ 
