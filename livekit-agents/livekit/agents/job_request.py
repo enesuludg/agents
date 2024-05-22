@@ -103,8 +103,8 @@ class JobRequest:
             self._answered = True
 
         if not identity:
-            identity = "agent-" + self.id
-
+            identity = "test-" + self.id
+        print("identity: {identity}")
         assign_tx, assign_rx = aio.channel(1)
         data = AcceptData(
             entry=entry,
